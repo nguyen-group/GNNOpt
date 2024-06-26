@@ -51,7 +51,7 @@ Step 2: Go to the source code in the GNNOpt directory to run the program:
     jupyter-lab gnnopt-***.ipynb
 (***: is the optical spectra that you want to run; for example, `jupyter-lab gnnopt-alpha.ipynb` for the absorption coefficient)
 
-Note: In gnnopt-***.ipynb, we used the trained model in the folder `GNNOpt/model` to save time. If you want to train the model on your computer, please uncomment at line:
+Note: In `gnnopt-***.ipynb` files, we used the trained model in the folder `GNNOpt/model` to save time. If you want to train the model on your computer, please uncomment at line:
 
 `# train(model, opt, dataloader_train, dataloader_valid, loss_fn, loss_fn_mae, run_name, max_iter=100, scheduler=scheduler, device=device)`
 
