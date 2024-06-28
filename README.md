@@ -14,11 +14,13 @@ GNNOpt requires the packages as follows:
 - `scipy`: an open-source software for mathematics, science, and engineering.
 - `mendeleev`: A package for accessing various properties of elements in the periodic table of elements.
 
-Example to install requirement with conda
+Example to install requirement with conda for CPU and GPU
 ```md
 $ conda create -n torch python=3.9
 $ conda activate torch
 $ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+$ pip3 install torch-cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-geometric.com/whl/torch-2.3.0+cu121.html
+$ pip3 install torch-geometric
 $ pip3 install jupyterlab ase e3nn pandas seaborn scipy mendeleev 
 ```
 
