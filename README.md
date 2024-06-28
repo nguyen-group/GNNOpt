@@ -14,7 +14,7 @@ GNNOpt requires the packages as follows:
 - `scipy`: an open-source software for mathematics, science, and engineering.
 - `mendeleev`: A package for accessing various properties of elements in the periodic table of elements.
 
-Example to install requirement with conda for CPU and GPU
+Example to install requirements with conda for CPU and GPU:
 ```md
 $ conda create -n torch python=3.9
 $ conda activate torch
