@@ -6,12 +6,21 @@ Universal Ensemble-Embedding Graph Neural Network for Direct Prediction of Optic
 # Requirement
 GNNOpt requires the packages as follows: 
 - `torch`: an open-source machine learning library with strong GPU acceleration.
+- `jupyterlab`: a web-based interactive development environment for notebooks, code, and data.
 - `e3nn`: a modular PyTorch framework for Euclidean neural networks.
 - `ase`: a set of tools and Python modules for setting up, manipulating, running, visualizing, and analyzing atomistic.  
 - `seaborn`: a Python data visualization library based on matplotlib.
 - `pandas`: a Python library used to work with data sets.
 - `scipy`: an open-source software for mathematics, science, and engineering.
 - `mendeleev`: A package for accessing various properties of elements in the periodic table of elements.
+
+Example to install requirement with conda
+```md
+$ conda create -n torch python=3.9
+$ conda activate torch
+$ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+$ pip3 install jupyterlab ase e3nn pandas seaborn scipy mendeleev 
+```
 
 # Directory Description
 
