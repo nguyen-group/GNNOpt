@@ -71,9 +71,9 @@ Note: In `gnnopt-***.ipynb` files, we used the trained model in the folder `GNNO
 
 # References and citing
 The detail GNNOpt is described in our pre-print:
-> N. T. Hung, R. Okabe,  A. Chotrattanapituk and M. Li, Ensemble-embedding graph neural network for direct prediction of optical spectra from crystal structure, arXiv:2406.16654
+> N. T. Hung, R. Okabe,  A. Chotrattanapituk and M. Li, Ensemble-embedding graph neural network for direct prediction of optical spectra from crystal structure, Adv. Mat. 2409175-1-11 (2024).
 > 
-> https://arxiv.org/abs/2406.16654
+> https://doi.org/10.1002/adma.202409175
 
 # Contributors
 - Nguyen Tuan Hung (Tohoku University, Japan)
