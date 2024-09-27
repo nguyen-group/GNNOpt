@@ -12,17 +12,20 @@ GNNOpt requires the packages as follows:
 - `seaborn`: a Python data visualization library based on matplotlib.
 - `pandas`: a Python library used to work with data sets.
 - `scipy`: an open-source software for mathematics, science, and engineering.
+- `scikit-learn`: A set of python modules for machine learning and data mining
 - `mendeleev`: A package for accessing various properties of elements in the periodic table of elements.
 
-Example to install requirements with conda for CPU and GPU:
+Example to install requirements with conda for CPU:
 ```md
 $ conda create -n torch python=3.9
 $ conda activate torch
 $ pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
 $ pip3 install torch-cluster torch-scatter torch-sparse torch-spline-conv -f https://pytorch-geometric.com/whl/torch-2.3.0+cu121.html
 $ pip3 install torch-geometric
-$ pip3 install jupyterlab ase e3nn pandas seaborn scipy mendeleev 
+$ pip3 install jupyterlab ase e3nn pandas seaborn scipy scikit-learn mendeleev 
 ```
+For GPU, you might need install as following:
+$ pip3 install torch-cluster torch-scatter torch-sparse torch-spline-conv
 
 # Directory Description
 
