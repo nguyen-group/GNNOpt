@@ -25,7 +25,9 @@ $ pip3 install torch-geometric
 $ pip3 install jupyterlab ase e3nn pandas seaborn scipy scikit-learn mendeleev 
 ```
 For GPU, you might need install as following:
+```md
 $ pip3 install torch-cluster torch-scatter torch-sparse torch-spline-conv
+```
 
 # Directory Description
 
