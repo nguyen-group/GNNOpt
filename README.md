@@ -15,7 +15,7 @@ GNNOpt requires the packages as follows:
 - `scikit-learn`: A set of python modules for machine learning and data mining
 - `mendeleev`: A package for accessing various properties of elements in the periodic table of elements.
 
-Example to install requirements with conda for CPU:
+Example to install requirements with conda for CPU & GPU:
 ```md
 $ conda create -n torch python=3.9
 $ conda activate torch
@@ -24,7 +24,7 @@ $ pip3 install torch-cluster torch-scatter torch-sparse torch-spline-conv -f htt
 $ pip3 install torch-geometric
 $ pip3 install jupyterlab ase e3nn pandas seaborn scipy scikit-learn mendeleev 
 ```
-For GPU, you might need install as following:
+For CPU, you might need install as following:
 ```md
 $ pip3 install torch-cluster torch-scatter torch-sparse torch-spline-conv
 ```
